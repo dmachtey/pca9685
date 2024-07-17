@@ -4,4 +4,8 @@ This driver was written for Arquitectura de sistemas
 embebidos/Especialización en Sistemas Embebidos UNER
 
 - to use the driver do as in pca9685Test.c
-- . d
+
+
+** wire as follows
+
+./schematic/sch.png
