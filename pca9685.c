@@ -3,14 +3,6 @@
 #include <math.h>
 #include <stdint.h>
 
-// #include <errno.h>
-//  #include "esp_log.h"
-//  #include "esp_system.h"
-//  #include <freertos/FreeRTOS.h>
-//  #include <string.h>
-//  #include <stdio.h>
-// #include <stdlib.h>
-
 #define ACK_CHECK_EN 0x1  /*!< I2C master will check ack from slave */
 #define ACK_CHECK_DIS 0x0 /*!< I2C master will not check ack from slave */
 #define ACK_VAL 0x0       /*!< I2C ack value */
