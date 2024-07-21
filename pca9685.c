@@ -1,3 +1,7 @@
+// =========================================================================
+// Copyright 2024 Damian Pablo Machtey. All rights reserved.
+// =========================================================================
+
 #include "pca9685.h"
 #include <driver/i2c.h>
 #include <math.h>

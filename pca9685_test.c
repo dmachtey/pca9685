@@ -1,3 +1,7 @@
+// =========================================================================
+// Copyright 2024 Damian Pablo Machtey. All rights reserved.
+// =========================================================================
+
 #include "ledcontrol.h"
 #include "sdkconfig.h"
 #include <stdio.h>

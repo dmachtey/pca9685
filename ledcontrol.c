@@ -1,3 +1,7 @@
+// =========================================================================
+// Copyright 2024 Damian Pablo Machtey. All rights reserved.
+// =========================================================================
+
 #include "ledcontrol.h"
 #include "pca9685.h"
 #include <driver/gpio.h>
@@ -16,13 +20,11 @@ PCA9685_t i2c_master;
  */
 void i2c_master_init(void);
 
-
 /**
  * Turn off all leds
  *
  */
 void allLedOff(void);
-
 
 int controlLed(uint8_t N, uint16_t perc) {
   if (!master_initialized) {
